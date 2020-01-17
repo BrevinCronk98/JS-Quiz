@@ -57,3 +57,15 @@ background: chartreuse;
     padding: 10px;
     border-radius: 15px;
 }
+
+#java{
+    display: none;
+}
+
+#C{
+    display: none;
+}
+
+#ruby {
+    display: none;
+}
