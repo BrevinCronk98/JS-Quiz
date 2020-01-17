@@ -15,19 +15,32 @@
 
         <form id=quiz>
             
-            <h3 class="question" id="ask1">1: The Earth is Flat</h3>
-            <h3 class="question" id="ask2">2: Water is Wet</h3>
-            <h3 class="question" id="ask3">3:PC is better than Console</h3>
-            <h3 class="question" id="ask4">4: Dogs are Better Than Cats</h3>
-            <h3 class="question" id="ask5">5: Lily is the best Dog</h3>
             
-            
+            <form id="tf">
+                <div class="form-group">
+                    <label for="q1">True or False: Lily is the best dog?</label>
+                    <input id="q1" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="q2">True or False: PC is Better than Console</label>
+                    <input id="q2" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="q3">True or False: Water is Wet</label>
+                    <input id="q3" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="q4">True or False: Whales walk on land</label>
+                    <input id="q4" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="q5">True or False: Birds cant fly</label>
+                    <input id="q5" class="form-control" type="text">
+                </div>
            
            
 
-            <label><button id="T" class="btn btn-success" name="choice">True</button>
-            </label>
-            <label> <button id="F" class="btn btn-danger" name="choice"> False</button>
+                <button type="submit"> submit</button>
                 
                 <h5 id="timeout" title="Failed"></h5>
                 <h5 id="lose" class="lead"> You got Java</h5>
