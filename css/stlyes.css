@@ -58,14 +58,14 @@ background: chartreuse;
     border-radius: 15px;
 }
 
-#java{
+#lose {
     display: none;
 }
 
-#C{
+#norm{
     display: none;
 }
 
-#ruby {
+#good {
     display: none;
 }

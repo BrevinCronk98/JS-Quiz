@@ -10,133 +10,33 @@
 <body>
     <div id=wrapper>
         <h1>What Is the Best Code for You to Start With</h1>
-        <p>Take this quiz and you will see what code you should start learning first</p>
+        <p>Take this true or false quiz and you will see what code you should start learning first</p>
     
 
         <form id=quiz>
-            <!---Question 1-->
-            <h2>What is your favorite quote?</h2>
-            <br>
             
-            <label><input type="radio"  name="q1" id=c1> 
-            "But a promise made must be a promised honored. As true for a commoner, as it is for a queen"
-            </label>
-            <br>
+            <h3 class="question" id="ask1">1: The Earth is Flat</h3>
+            <h3 class="question" id="ask2">2: Water is Wet</h3>
+            <h3 class="question" id="ask3">3:PC is better than Console</h3>
+            <h3 class="question" id="ask4">4: Dogs are Better Than Cats</h3>
+            <h3 class="question" id="ask5">5: Lily is the best Dog</h3>
             
-            <label><input type="radio" name="q1" id="c2">
-            "leave the gun, take the cannoli"
-            </label>
-            <br>
+            
+           
+           
 
-            <label><input type="radio" name="q1" id="c3">
-            "No, it's a cardigan, but thanks for noticing"
+            <label><button id="T" class="btn btn-success" name="choice">True</button>
             </label>
-            <br>
+            <label> <button id="F" class="btn btn-danger" name="choice"> False</button>
+                
+                <h5 id="timeout" title="Failed"></h5>
+                <h5 id="lose" class="lead"> You got Java</h5>
+                <h5 id="norm" class="lead"> you got C#</h5>
+                <h5 id="good" class="lead"> You got JavaScript</h5>
 
-            <label><input type="radio" name="q1" id="c4">
-            "Prince Zuko, pride is not the opposite of shame, but rather its source. True humility is the only antidote to shame"
             </label>
-            <br>
-            <!---Question 2-->
-            <h2>What is your favorite video game?</h2>
-            <br>
-
-            <label><input type="radio" name="q2" id="c1">
-            Mineraft   
-            </label>
-            <br>
-
-            <label><input type="radio" name="q2" id="c2">
-            Escape from Tarkov
-            </label>
-            <br>
-
-            <label><input type="radio" name="q2" id="c3">
-            World of Warcraft
-            </label>
-            <br>
-
-            <label><input type="radio" name="q2" id="c4">
-            Bioshock Infinite
-            </label>
-            <br>
-            <!--Question 3-->
-            <h2>What is Your Favorite Show</h2>
-            <br>
-
-            <label><input type="radio" name="q3" id="c1">
-            The Witcher
-            </label>
-            <br>
-
-            <label><input type="radio" name="q3" id="c2">
-            The Boys
-            </label>
-            <br>
-
-            <label><input type="radio" name="q3" id="c3">
-            Game of Thrones
-            </label>
-            <br>
-
-            <label><input type="radio" name="q3" id="c4">
-            Avatar the Last Airbender
-            </label>
-            <br>
-            <!--Question 4-->
-            <h2> What is Your Favorite Season</h2>
-            <br>
-
-            <label><input type="radio" name="q4" id="c1">
-            Winter
-            </label>
-            <br>
-
-            <label><input type="radio" name="q4" id="c2">
-            Spring
-            </label>
-            <br>
-
-            <label><input type="radio" name="q4" id="c3">
-            Summer
-            </label>
-            <br>
-
-            <label><input type="radio" name="q4" id="c4">
-            Fall
-            </label>
-            <br>
-            <!--Question 5-->
-            <h2>Favorite Computer Parts Manufacturer</h2>
-            <br>
-
-            <label><input type="radio" name="q5" id="c1">
-            ASUS
-            </label>
-            <br>
-
-            <label><input type="radio" name="q5" id="c2">
-            EVGA
-            </label>
-            <br>
-
-            <label><input type="radio" name="q5" id="c3">
-            MSI
-            </label>
-            <br>
-
-            <label><input type="radio" name="q5" id="c4">
-            NVIDIA
-            </label>
-            <br>
-
-            <button type="submit" id="submit" onclick="tabulateAnswers()">Click here to Submit</button>
-            <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
         </form>
-        <div id="answer">The result of your quiz will display here!</div>
-        <div id="java"> You should learn java first</div>
-        <div id="C">You should learn C#</div>
-        <div id="ruby">You should learn Ruby</div>
+        
     </div>
 </body>
 </html>
