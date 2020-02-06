@@ -11,10 +11,16 @@ $(document).ready(function(event) {
         
     if((totalval <=20)){ 
         $("#java").show();
+        $("#ruby").hide();
+        $("#c").hide();
     } else if((totalval > 20 && totalval < 31  )){
         $("#ruby").show();
+        $("#java").hide();
+        $("#c").hide();
     }else if ((totalval>=31)){
         $("#c").show();
+        $("#java").hide();
+        $("#ruby").hide();
     }
         
     event.preventDefault();
